@@ -1,0 +1,39 @@
+CarePoint Hospital Management Dashboard
+
+This project is a responsive front-end demo for a hospital management workspace.
+
+Files:
+- index.html: dashboard layout and record dialog
+- styles.css: responsive interface styles
+- script.js: in-memory demo records, navigation, search, and forms
+
+Preview:
+http://localhost:8000
+
+Features:
+- Overview with sample patient, doctor, staff, and appointment totals, revenue, activity,
+  and department statistics
+- Patient directory with unique demo IDs, contact/address fields, emergency contacts,
+  search, profile editing, and linked clinical records
+- Doctor profiles with add, edit, remove, specialty, qualifications, contact, and availability
+- Staff directory with add/remove, role, department, and shift
+- Appointment scheduling, status changes, rescheduling, status filters, and same-doctor
+  30-minute overlap checks
+- Doctor-role-only medical-record preview with diagnosis, allergies, vitals, notes, and
+  prescription fields
+- Pharmacy inventory with reorder indicators and quantity-checked dispensing
+- Department and service management
+- Billing with invoice generation, quantity, discount, tax, and payment-status tracking
+- Responsive sidebar navigation and Ctrl/Cmd + K search shortcut
+
+Important:
+- This is a front-end demonstration, not a production hospital system.
+- All data is fictional and kept only in JavaScript memory for the current page session.
+- MongoDB, an API server, and persistent storage are not connected in this front-end-only
+  prototype.
+- The current implementation is dependency-free HTML, CSS, and JavaScript; it does not
+  include a React build setup.
+- The role selector only demonstrates screen behavior; it is not authentication or
+  security. Do not enter real patient or health information.
+- This demo does not provide secure storage, audit logging, backups, or healthcare privacy
+  safeguards. It is not suitable for real clinical or billing use.
